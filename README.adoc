@@ -1,0 +1,20 @@
+= DM: Implantation de l’attaque par le milieu contre un chiffrement par bloc
+
+==== _Thanushan PIRABAKARAN & Maya SANTINI_
+====
+Le couple clair-chiffré que nous avons utilisé est celui de Maya SANTINI : (m1,c1) = (5378ee, d0dd2b) (m2,c2) = (f746a9, c82611).
+====
+
+=== Execution du code
+
+Pour compiler notre code, vous avez plusieurs options. +
+
+Pour lancer une *attaque*, tapez "make attaque" dans votre terminal en étant dans le bon répertoire. Puis, indiquer vos couples (m1,c1), (m2,c2). Le couple clair-chiffré de Maya SANTINI est déclaré par défaut si vous choisissez de ne rien remplir. +
+
+Pour lancer un *chiffrement*, tapez "make chiffre" dans votre terminal en étant dans le bon répertoire. Puis, indiquer le message à chiffrer, ainsi que la clé que vous souhaitez utiliser. Vous pouvez choisir de ne pas donner de clé, auquel cas elle sera générée aléatoirement. +
+
+Pour lancer un *déchiffrement*, tapez "make dechiffre" dans votre terminal en étant dans le bon répertoire. Puis, indiquer le message à déchiffrer, ainsi que la clé que vous souhaitez utiliser. +
+
+Si vous tapez "make", l'attaque se lancera automatiquement. +
+
+Autrement, vous pouvez ouvrir *attaque.py* dans un éditeur de code et le lancer, puis suivre les instructions.
