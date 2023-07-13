@@ -1,6 +1,6 @@
 # Implantation de l’attaque par le milieu 2-Present24, chiffrement et déchiffrement d'un Present24
 
-**Projet réalisé en binome avec Maya SANTINI.**
+**Projet réalisé en binome avec Thanushan PIRABAKARAN.**
 
 
 ## Execution du code Python
